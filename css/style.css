@@ -31,6 +31,7 @@ body{
   background-image: url(../img/cover.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: auto 100%;
   z-index: -1;
 }
 
@@ -54,11 +55,36 @@ body{
   font-weight: 500;
 }
 
-/*Background of weeks days - home*/
+/*Background of week days - home*/
 .gr-days-link, .gr-days-link:hover{
   color: white;
   text-decoration: none;
 }
-.gr-card-monday{
-  background-image: url(../img/cover.jpg);
+.gr-card-chest{
+  background-image: url(../img/chest.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: black;
+}
+
+.gr-page-cover{
+  text-align: center;
+  height: 200px;
+  z-index: -1;
+  background-size: auto 100% !important;
+}
+
+.gr-card-back{
+  background-image: url(../img/back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.gr-card-legs{
+  background-image: url(../img/legs.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
