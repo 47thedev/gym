@@ -1,0 +1,31 @@
+.table-primary:hover{
+  background-color: rgba(32, 148, 250, 0.27);
+}
+
+.table-secondary:hover{
+  background-color: rgba(242, 244, 255, 0.24);
+}
+
+.table-success:hover{
+  background-color: rgba(4, 222, 113, 0.24);
+}
+
+.table-danger:hover{
+  background-color: rgba(250, 17, 79, 0.27);
+}
+
+.table-warning:hover{
+  background-color: rgba(255, 149, 0, 0.25);
+}
+
+.table-info:hover{
+  background-color: rgba(120, 122, 255, 0.3);
+}
+
+.table-light:hover{
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.table-dark:hover{
+  background-color: rgba(0, 0, 0, 1);
+}
